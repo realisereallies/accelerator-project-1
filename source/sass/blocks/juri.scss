@@ -1,0 +1,65 @@
+.juri{
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 320px;
+  margin: 0 auto;
+  padding-bottom: 22px;
+}
+
+.juri__title{
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 2px;
+  font-family: Alumni Sans;
+font-weight: 600;
+font-size: 32px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+}
+
+.trainer-card {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+padding-left: 30px;
+}
+
+/* Стили для блока с информацией о тренере (скрыт по умолчанию) */
+.trainer-info {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #102654E3;
+  color: #fff;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  box-sizing: border-box;
+  width: 260px;
+  height: 300px;
+}
+
+.juri__card-description{
+  position:absolute;
+  bottom: 5px;
+  left: 95px;
+  font-family: Roboto Condensed, sans-serif;
+font-weight: 400;
+font-size: 22px;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #ffffff;
+}
+
+.swiper-slide:hover .juri__card-description,
+.swiper-slide:focus .juri__card-description {
+  display: none; /* Скрываем описание при наведении/фокусе */
+}
