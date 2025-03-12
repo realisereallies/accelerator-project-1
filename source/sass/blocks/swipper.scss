@@ -1,0 +1,78 @@
+/* Показываем информацию при наведении и фокусе на слайде */
+.swiper-slide:hover .trainer-info,
+.swiper-slide:focus .trainer-info {
+  opacity: 1;
+
+}
+
+
+.swiper-button-prev {
+  position:absolute;
+top: 500px;
+}
+
+@media (min-width: 320px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+
+.swiper-wrapper {
+  padding: 0;
+  list-style: none;
+  position: relative;
+
+}
+.swiper-container {
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+.swipper-title {
+  font-family: Roboto Condensed, sans-serif;
+font-weight: 400;
+font-size: 22px;
+line-height: 22px;
+letter-spacing: 0%;
+vertical-align: middle;
+padding-top: 36px;
+padding-bottom: 0px;
+margin: 0;
+}
+
+.swiper-subtitle {
+  margin: 0;
+  font-family: Roboto Condensed,sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+vertical-align: middle;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.swiper-list {
+  font-family: Roboto Condensed, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+padding: 0;
+padding-left: 55px;
+text-align: left;
+padding-top: 23px;
+list-style-type: disc;
+
+}
+
+.swiper-list li {
+padding-bottom: 12px;
+
+}
+
+.swiper-list li::marker {
+  margin-right: 10px;
+}
